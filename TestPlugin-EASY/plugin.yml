@@ -1,0 +1,15 @@
+name: TestPlugin
+main: RainbowDeveloper\TestPlugin\TestPlugin
+api: 1.0.0
+version: 1.0.0
+description: "Only a test plugin"
+
+commands:
+  test:
+    description: "All players can use this command (true = all , op = only OPs , false = only the console"
+    permission: test.use
+
+permissions:
+  test.use:
+    default: true  
+    description: "Permissions for /test , in the plugin.yml watch up and read the explanation" 
